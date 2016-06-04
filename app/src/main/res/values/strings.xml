@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MultiThreading Primes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_calc">Calculate</string>
+    <string name="labelFrom">From:</string>
+    <string name="labelTo">To:</string>
+    <string name="editTextInitialFrom">1</string>
+    <string name="editTextInitialTo">1000</string>
+    <string name="editTextThread01">Thread 1:</string>
+    <string name="editTextThread02">Thread 2:</string>
+    <string name="editTextThread03">Thread 3:</string>
+    <string name="editTextThread04">Thread 4:</string>
+</resources>
