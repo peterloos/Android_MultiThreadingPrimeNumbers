@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         }
 
         final String s = String.format(Locale.US, "Total: %d ", this.total);
-        Log.i("PeLo", s.toString());
+        Log.i("PeLo", s);
 
         // copy message into text box
         this.runOnUiThread(new Runnable() {
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         final int currentIndex;
 
         final String s = String.format("Found %d [TID: %d] ", found, tid);
-        Log.i("PeLo", s.toString());
+        Log.i("PeLo", s);
 
         synchronized (this)
         {
@@ -169,6 +169,4 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
             }
         });
     }
-
-
 }
